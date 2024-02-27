@@ -7,7 +7,7 @@ class Proposal(Model):
     item: str
     price: float
 
-
+# addded
 class Reject(Model):
     proposal_id: UUID4
     reason: str
